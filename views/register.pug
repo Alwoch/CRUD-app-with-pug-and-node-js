@@ -1,0 +1,43 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/index.css')
+  title register
+.container
+  button.login.btn login here
+  h1 students register from
+  h4 please enter your details
+  .content
+    form(action='/register' method='POST')
+      .form-control
+        label(for='firstname') first name
+        input#firstname(type='text' name='firstName' placeholder='enter first name')
+        small
+      .form-control
+        label(for='lastname') last name
+        input#lastname(type='text' name='lastName' placeholder='enter last name')
+        small
+      .form-control
+        label(for='email') email address
+        input#email(type='email' name='email' placeholder='eg. email@example.com')
+        small
+      .form-control
+        label(for='address') address
+        input#address(type='text' name='address' placeholder='enter your address eg. Entebbe')
+        small
+      .form-control
+        label(for='telephone') phone Number
+        input#telephone(type='tel' name='phoneNumber' placeholder='eg 0701234567')
+        small
+      .form-control
+        label(for='password') password
+        input#password(type='password' name='password' placeholder='enter your password')
+        small
+      .form-control
+        label(for='passwordConfirm') confirm password
+        input#passwordConfirm(placeholder='confirm your password' type='password' name='passwordConfirm')
+        small
+      button.btn(type='submit') register
+//- script(src='/index.js')
