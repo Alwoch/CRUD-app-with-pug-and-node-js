@@ -2,9 +2,9 @@
 Student Registration Form 
 
 # Pages 
-1. Sign Up Page
-2. Log in page 
-3. Landing Page 
+* Sign Up Page
+* Log in page 
+* Landing Page 
 
 # Languages Used 
 * Backend ~ Nodejs 
