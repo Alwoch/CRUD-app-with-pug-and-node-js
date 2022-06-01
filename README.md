@@ -2,13 +2,13 @@
 Student Registration Form 
 
 # Pages 
-Sign Up Page
-Log in page 
-Landing Page 
+1. Sign Up Page
+2. Log in page 
+3. Landing Page 
 
 # Languages Used 
-Backend ~ Nodejs 
-Frontend ~ CSS,HTML and Javascript 
+* Backend ~ Nodejs 
+* Frontend ~ CSS,HTML and Javascript 
 
 # Collaborators 
 1. Naggayi Daphne Pearl ~ https://github.com/Naggayi-Daphne-Pearl
