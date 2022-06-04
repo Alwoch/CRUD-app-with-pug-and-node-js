@@ -1,5 +1,6 @@
 const Student = require("../models/Student");
 const router = require("../routes/student");
+const logger = require("../logger/logger")
 
 //register student
 const registerStudent = async (req, res) => {
@@ -11,7 +12,7 @@ const registerStudent = async (req, res) => {
     
   } catch (error) {
   res.send('your data has not been saved');
-  console.log(error);
+  logger.error(error);
   }
    
 };
